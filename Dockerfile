@@ -5,7 +5,7 @@ FROM python:3.9
 WORKDIR /usr/src/app
 
 # Copy the current directory contents into the container at /usr/src/app
-COPY pyvi templates/ .
+COPY pytemplates/ .
 
 # Change directory to the correct path
 WORKDIR /usr/src/app/code
